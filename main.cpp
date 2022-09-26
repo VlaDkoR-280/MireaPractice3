@@ -13,7 +13,7 @@ int main()
     scanf_s("%lf%lf%lf", &x, &y, &z);
 
     double f = ((exp(fabs(x - y)) * pow(fabs(x - y), x + y)) / (atan(x) + atan(z))) + (pow(pow(x, 6) + pow(log(y), 2), 1.0/3));
-    printf("%f", f);
+    printf("%.3f", f);
 
 }
 //  -0.02235 2.23 15.221
