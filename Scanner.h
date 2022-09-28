@@ -19,6 +19,10 @@ public:
     void print(double a){
         printf("%f", a);
     }
+
+    void print(int a){
+        printf("%d", a);
+    }
 };
 
 
