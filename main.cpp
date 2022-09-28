@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "Person.h"
-#include "Scanner.h"
+#include "VladClasses/Manager.h"
 
 
 //  7 variant
@@ -11,7 +11,7 @@ int main()
     Person person;
     person.age = 15;
     person.id = 1;
-    Scanner scan;
+    Manager scan;
     //double x = -2.235 * pow(10, -2);
     //double y = 2.23;
     //double z = 15.221;
