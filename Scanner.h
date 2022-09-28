@@ -16,6 +16,9 @@ public:
         //*c = 15.221;
         scanf_s("%lf%lf%lf", a, b, c);
     }
+    void print(double a){
+        printf("%f", a);
+    }
 };
 
 
