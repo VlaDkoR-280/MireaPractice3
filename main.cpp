@@ -7,6 +7,7 @@
 //  7 variant
 int main()
 {
+    //test two main class
     Person person;
     person.age = 15;
     person.id = 1;
